@@ -81,6 +81,7 @@ class Provider(object):
     :cvar VULTR: vultr driver.
     :cvar AZURE: Azure driver.
     :cvar AURORACOMPUTE: Aurora Compute driver.
+    :cvar UCLOUD:  Ucloud Compute driver.
     """
     AZURE = 'azure'
     DUMMY = 'dummy'
@@ -134,7 +135,7 @@ class Provider(object):
     AURORACOMPUTE = 'aurora_compute'
     CLOUDWATT = 'cloudwatt'
     PACKET = 'packet'
-
+    UCLOUD = 'ucloud'
     # OpenStack based providers
     HPCLOUD = 'hpcloud'
     CLOUDWATT = 'cloudwatt'

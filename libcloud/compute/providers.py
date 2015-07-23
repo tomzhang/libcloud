@@ -163,10 +163,8 @@ DRIVERS = {
     ('libcloud.compute.drivers.cloudwatt', 'CloudwattNodeDriver'),
     Provider.PACKET:
     ('libcloud.compute.drivers.packet', 'PacketNodeDriver'),
-
-    # Deprecated
-    Provider.CLOUDSIGMA_US:
-    ('libcloud.compute.drivers.cloudsigma', 'CloudSigmaLvsNodeDriver'),
+    Provider.UCLOUD:
+    ('libcloud.compute.drivers.ucloud', 'UcloudNodeDriver'),
 }
 
 
